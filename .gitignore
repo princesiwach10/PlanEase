@@ -1,0 +1,15 @@
+# dependencies
+/.vscode/*
+*/node_modules
+*/venv
+/backend/apps/user/__pycache__
+**/migrations/*
+!**/migrations/__init__.py
+
+# production
+*/build
+*/staticfiles
+
+# misc
+*.pyc
+*.env.test
